@@ -1,0 +1,809 @@
+:root {
+  --navy: #003e7b;
+  --orange: #f4ac6a;
+  --pink: #f3b3cf;
+}
+
+html body {
+  margin: 0;
+}
+html body main > ul {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media screen and (min-width: 767px) {
+  html body main > ul {
+    max-width: 83.3333333333%;
+  }
+}
+html body #talkaboutnewdenim {
+  font-feature-settings: "palt";
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html body #talkaboutnewdenim p, html body #talkaboutnewdenim table, html body #talkaboutnewdenim blockquote, html body #talkaboutnewdenim address, html body #talkaboutnewdenim pre, html body #talkaboutnewdenim iframe, html body #talkaboutnewdenim form, html body #talkaboutnewdenim figure, html body #talkaboutnewdenim dl {
+  margin: 0;
+}
+html body #talkaboutnewdenim h1, html body #talkaboutnewdenim h2, html body #talkaboutnewdenim h3, html body #talkaboutnewdenim h4, html body #talkaboutnewdenim h5, html body #talkaboutnewdenim h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+html body #talkaboutnewdenim button, html body #talkaboutnewdenim input, html body #talkaboutnewdenim optgroup, html body #talkaboutnewdenim select, html body #talkaboutnewdenim textarea {
+  -webkit-appearance: none;
+  appearance: none;
+  vertical-align: middle;
+  color: inherit;
+  font: inherit;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  text-align: inherit;
+  text-transform: inherit;
+  border: none;
+  background-color: transparent;
+}
+html body #talkaboutnewdenim ul, html body #talkaboutnewdenim ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html body #talkaboutnewdenim dt {
+  font-weight: bold;
+}
+html body #talkaboutnewdenim dd {
+  margin-left: 0;
+}
+html body #talkaboutnewdenim a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+html body #talkaboutnewdenim svg, html body #talkaboutnewdenim img, html body #talkaboutnewdenim embed, html body #talkaboutnewdenim object, html body #talkaboutnewdenim iframe {
+  vertical-align: bottom;
+}
+html body #talkaboutnewdenim img {
+  width: 100%;
+  height: auto;
+}
+@media screen and (min-width: 980px) {
+  html body #talkaboutnewdenim .pc {
+    display: block;
+  }
+  html body #talkaboutnewdenim .sp {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 980px) {
+  html body #talkaboutnewdenim .sp {
+    display: block;
+  }
+  html body #talkaboutnewdenim .pc {
+    display: none !important;
+  }
+}
+html body #talkaboutnewdenim .scroll-in {
+  opacity: 0;
+  transform: translateY(20px);
+}
+html body #talkaboutnewdenim .scroll-in.show {
+  opacity: 1;
+  transition: 0.5s ease;
+  transform: none;
+}
+@media screen and (min-width: 500px) {
+  html body #talkaboutnewdenim {
+    background-color: var(--navy);
+  }
+}
+@media screen and (min-width: 500px) and (min-width: 980px) {
+  html body #talkaboutnewdenim {
+    padding-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+}
+html body #talkaboutnewdenim button:hover {
+  cursor: pointer;
+}
+html body #talkaboutnewdenim .feature-main-content {
+  font-family: "noto-sans-cjk-jp", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  max-width: 500px;
+  margin-inline: auto;
+  background-color: white;
+}
+@media screen and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content {
+    width: 29.2825768668%;
+    margin-right: 2.196193265%;
+    max-width: none;
+  }
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual {
+  padding-top: 3.7333333333%;
+  position: relative;
+}
+@media screen and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #main-visual {
+    padding-top: 0;
+  }
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3.3333333333%;
+}
+@media screen and (min-width: 500px) and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #main-visual .title {
+    display: none;
+  }
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual .title span {
+  display: block;
+  width: 46.8%;
+  opacity: 0;
+  translate: 0 50%;
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual .title span:nth-child(2) {
+  width: 43.8666666667%;
+  margin-left: 3.6%;
+  translate: 0 -50%;
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual .jp-title {
+  font-size: 4vw;
+  text-align: center;
+  font-weight: 900;
+  clip-path: inset(0 100% 0 0);
+  line-height: 1.5333333333;
+}
+@media screen and (min-width: 500px) {
+  html body #talkaboutnewdenim .feature-main-content #main-visual .jp-title {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 500px) and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #main-visual .jp-title {
+    font-size: 1.1713030747vw;
+  }
+}
+@media screen and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #main-visual .jp-title {
+    color: var(--navy);
+    width: 100%;
+    margin-block: 4%;
+    font-size: 4.2666666667vw;
+    line-height: 1.53125;
+  }
+}
+@media screen and (min-width: 980px) and (min-width: 500px) {
+  html body #talkaboutnewdenim .feature-main-content #main-visual .jp-title {
+    font-size: 21.3333333333px;
+  }
+}
+@media screen and (min-width: 980px) and (min-width: 500px) and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #main-visual .jp-title {
+    font-size: 1.2493899463vw;
+  }
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual .image {
+  position: relative;
+  margin-top: 3.6%;
+  z-index: 1;
+}
+@media screen and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #main-visual .image {
+    margin-top: 0;
+  }
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual .image .img {
+  position: relative;
+  z-index: 1;
+  clip-path: inset(0 100% 0 0);
+  overflow: hidden;
+  aspect-ratio: 750/530;
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual .image .img img {
+  scale: 1.1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual .image .ah {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24%;
+  margin-top: 2%;
+  margin-left: 2%;
+  z-index: 2;
+  scale: 0;
+  transform-origin: 100% 90%;
+}
+@media screen and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #main-visual .image .ah {
+    display: none;
+  }
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual.show .title span {
+  opacity: 1;
+  translate: 0 0;
+  transition: 0.5s ease 0s;
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual.show .title span:nth-child(1) {
+  transition-delay: 0.3s;
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual.show .title span:nth-child(2) {
+  transition-delay: 0.6s;
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual.show .jp-title {
+  clip-path: inset(0);
+  transition: clip-path 1s ease 0.6s, color 0.4s ease 0.5s;
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual.show .image .img {
+  clip-path: inset(0);
+  transition: 1.5s ease 0.5s;
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual.show .image .img img {
+  transition: opacity 1s ease 0.5s, scale 2s ease 0.5s;
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual.show .image .img img.show {
+  scale: 1;
+  opacity: 1;
+}
+html body #talkaboutnewdenim .feature-main-content #main-visual.show .image .ah {
+  scale: 1;
+  transition: 0.4s cubic-bezier(0.25, 0.25, 0.37, 1.46) 2.2s;
+}
+html body #talkaboutnewdenim .feature-main-content #intro {
+  padding-top: 7.0666666667%;
+  position: relative;
+}
+html body #talkaboutnewdenim .feature-main-content #intro .lead {
+  font-size: 3.7333333333vw;
+  line-height: 1.6428571429;
+  opacity: 0;
+  translate: 0 10px;
+  width: 77.3333333333%;
+  margin-inline: auto;
+  font-weight: 900;
+}
+@media screen and (min-width: 500px) {
+  html body #talkaboutnewdenim .feature-main-content #intro .lead {
+    font-size: 18.6666666667px;
+  }
+}
+@media screen and (min-width: 500px) and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #intro .lead {
+    font-size: 1.093216203vw;
+  }
+}
+html body #talkaboutnewdenim .feature-main-content #intro .profile {
+  width: 77.3333333333%;
+  margin-inline: auto;
+  border-block: 1px solid;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-inline: 5.3333333333%;
+  padding-block: 3.3333333333%;
+  margin-top: 8%;
+  box-sizing: border-box;
+}
+html body #talkaboutnewdenim .feature-main-content #intro .profile .img {
+  width: 26.8%;
+  clip-path: circle(0 at 50% 50%);
+}
+html body #talkaboutnewdenim .feature-main-content #intro .profile.show .img {
+  clip-path: circle(50% at 50% 50%);
+  transition: 1s ease 0.5s;
+}
+html body #talkaboutnewdenim .feature-main-content #intro .profile .text1 {
+  margin-left: 10px;
+}
+html body #talkaboutnewdenim .feature-main-content #intro .profile .text1 .job {
+  font-size: 2.6666666667vw;
+}
+@media screen and (min-width: 500px) {
+  html body #talkaboutnewdenim .feature-main-content #intro .profile .text1 .job {
+    font-size: 13.3333333333px;
+  }
+}
+@media screen and (min-width: 500px) and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #intro .profile .text1 .job {
+    font-size: 0.7808687164vw;
+  }
+}
+html body #talkaboutnewdenim .feature-main-content #intro .profile .text1 .name {
+  font-size: 4vw;
+}
+@media screen and (min-width: 500px) {
+  html body #talkaboutnewdenim .feature-main-content #intro .profile .text1 .name {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 500px) and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #intro .profile .text1 .name {
+    font-size: 1.1713030747vw;
+  }
+}
+html body #talkaboutnewdenim .feature-main-content #intro .profile .text2 {
+  width: 100%;
+  font-size: 2.6666666667vw;
+  line-height: 1.6;
+  padding-top: 5%;
+}
+@media screen and (min-width: 500px) {
+  html body #talkaboutnewdenim .feature-main-content #intro .profile .text2 {
+    font-size: 13.3333333333px;
+  }
+}
+@media screen and (min-width: 500px) and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #intro .profile .text2 {
+    font-size: 0.7808687164vw;
+  }
+}
+html body #talkaboutnewdenim .feature-main-content:has(#main-visual.show) #intro .lead {
+  opacity: 1;
+  translate: 0 0;
+  transition: 1s ease 2.5s;
+}
+@media screen and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content:has(#main-visual.show) #intro .lead {
+    transition-delay: 1s;
+  }
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content hgroup {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 8%;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content hgroup img {
+  width: 18.9333333333%;
+  margin-left: 6.6666666667%;
+  scale: 0;
+  transform-origin: 100% 90%;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content hgroup h3 {
+  font-size: 4.2666666667vw;
+  line-height: 1.40625;
+  font-weight: 900;
+  margin-left: 3.7333333333%;
+}
+@media screen and (min-width: 500px) {
+  html body #talkaboutnewdenim .feature-main-content #talk-content hgroup h3 {
+    font-size: 21.3333333333px;
+  }
+}
+@media screen and (min-width: 500px) and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #talk-content hgroup h3 {
+    font-size: 1.2493899463vw;
+  }
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content hgroup h3 span {
+  background-image: linear-gradient(90deg, var(--orange) 0%, var(--orange) 50%, transparent 50%, transparent 100%);
+  background-position: 100% center;
+  background-size: 200% 80%;
+  background-repeat: no-repeat;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content hgroup.show img {
+  scale: 1;
+  transition: 0.4s cubic-bezier(0.25, 0.25, 0.37, 1.46) 0.7s;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content hgroup.show h3 span {
+  background-position: 0 center;
+  transition: 1s ease 0.5s;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .img-wrapper {
+  width: 77.3333333333%;
+  margin-inline: auto;
+  margin-top: 5.3333333333%;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .img-wrapper .cap {
+  margin-top: 2.7586206897%;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .cap {
+  font-size: 2.6666666667vw;
+  line-height: 1.6;
+}
+@media screen and (min-width: 500px) {
+  html body #talkaboutnewdenim .feature-main-content #talk-content .cap {
+    font-size: 13.3333333333px;
+  }
+}
+@media screen and (min-width: 500px) and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #talk-content .cap {
+    font-size: 0.7808687164vw;
+  }
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .text-area {
+  width: 77.3333333333%;
+  margin-inline: auto;
+  margin-top: 6.6666666667%;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .text-area p {
+  font-size: 3.2vw;
+  line-height: 1.75;
+}
+@media screen and (min-width: 500px) {
+  html body #talkaboutnewdenim .feature-main-content #talk-content .text-area p {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 500px) and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #talk-content .text-area p {
+    font-size: 0.9370424597vw;
+  }
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .text-area p .name {
+  font-weight: 900;
+  margin-right: 1.5em;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .text-area p em {
+  opacity: 1;
+  transform: none;
+  background-image: linear-gradient(90deg, var(--pink) 0%, var(--pink) 50%, transparent 50%, transparent 100%);
+  background-position: 100% center;
+  background-size: 200% 80%;
+  background-repeat: no-repeat;
+  font-style: normal;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .text-area p em.show {
+  background-position: 0 center;
+  transition: 1s ease 0.5s;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .slider-wrapper {
+  overflow: hidden;
+  margin-top: 5.3333333333%;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .slider-wrapper .swiper {
+  width: 65.3333333333%;
+  margin-left: 9.3333333333%;
+  overflow: visible;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .slider-wrapper .swiper .swiper-wrapper .swiper-slide .img {
+  width: 93.8775510204%;
+  margin-inline: auto;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .slider-wrapper .swiper .swiper-wrapper .swiper-slide .cap {
+  width: 93.8775510204%;
+  margin-inline: auto;
+  margin-top: 4.693877551%;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .slider-wrapper .swiper.swiper2 {
+  width: 81.3333333333%;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .slider-wrapper .swiper.swiper2 .swiper-wrapper .swiper-slide .img {
+  width: 95.0819672131%;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .slider-wrapper .swiper.swiper2 .swiper-wrapper .swiper-slide.slim {
+  width: 48.5333333333vw;
+}
+@media screen and (min-width: 500px) {
+  html body #talkaboutnewdenim .feature-main-content #talk-content .slider-wrapper .swiper.swiper2 .swiper-wrapper .swiper-slide.slim {
+    width: 242px;
+  }
+}
+@media screen and (min-width: 500px) and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #talk-content .slider-wrapper .swiper.swiper2 .swiper-wrapper .swiper-slide.slim {
+    width: 14.2vw;
+  }
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .slider-wrapper .swiper.swiper2 .swiper-wrapper .swiper-slide.slim .img {
+  width: 100%;
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .slider-wrapper .swiper.swiper2 .swiper-wrapper .swiper-slide.slim2 {
+  width: 47.3333333333vw;
+}
+@media screen and (min-width: 500px) {
+  html body #talkaboutnewdenim .feature-main-content #talk-content .slider-wrapper .swiper.swiper2 .swiper-wrapper .swiper-slide.slim2 {
+    width: 236px;
+  }
+}
+@media screen and (min-width: 500px) and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #talk-content .slider-wrapper .swiper.swiper2 .swiper-wrapper .swiper-slide.slim2 {
+    width: 13.9vw;
+  }
+}
+html body #talkaboutnewdenim .feature-main-content #talk-content .slider-wrapper .swiper.swiper2 .swiper-wrapper .swiper-slide.slim2 .img {
+  width: 100%;
+}
+html body #talkaboutnewdenim .feature-main-content #outro {
+  padding-bottom: 4%;
+}
+html body #talkaboutnewdenim .feature-main-content #outro a:hover {
+  opacity: 0.7;
+}
+html body #talkaboutnewdenim .feature-main-content #outro .all {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 82.1333333333%;
+  margin-inline: auto;
+  border-block: 1px solid;
+  aspect-ratio: 616/112;
+  position: relative;
+}
+html body #talkaboutnewdenim .feature-main-content #outro .all img {
+  width: 88.7987012987%;
+  margin-left: 1.9480519481%;
+}
+html body #talkaboutnewdenim .feature-main-content #outro .all::after {
+  content: "";
+  display: block;
+  width: 18px;
+  aspect-ratio: 1/1;
+  border-right: 1px solid;
+  border-top: 1px solid;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  translate: 0 -50%;
+  rotate: 45deg;
+}
+html body #talkaboutnewdenim .feature-main-content #outro .banner {
+  width: 82.1333333333%;
+  display: block;
+  margin-inline: auto;
+  margin-top: 8%;
+}
+html body #talkaboutnewdenim .feature-main-content #outro .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16.6666666667%;
+}
+html body #talkaboutnewdenim .feature-main-content #outro .social li {
+  margin-inline: 5.8666666667%;
+}
+html body #talkaboutnewdenim .feature-main-content #outro .social li:nth-child(1) {
+  width: 6.1333333333%;
+}
+html body #talkaboutnewdenim .feature-main-content #outro .social li:nth-child(2) {
+  width: 5.7333333333%;
+}
+html body #talkaboutnewdenim .feature-main-content #outro .social li:nth-child(3) {
+  width: 4.6666666667%;
+}
+html body #talkaboutnewdenim .feature-main-content #outro .social li:nth-child(4) {
+  width: 6.2666666667%;
+}
+html body #talkaboutnewdenim .feature-main-content #outro .copy {
+  text-align: center;
+  font-size: 2.6666666667vw;
+  font-family: "tt-commons-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 15.8666666667%;
+}
+@media screen and (min-width: 500px) {
+  html body #talkaboutnewdenim .feature-main-content #outro .copy {
+    font-size: 13.3333333333px;
+  }
+}
+@media screen and (min-width: 500px) and (min-width: 980px) {
+  html body #talkaboutnewdenim .feature-main-content #outro .copy {
+    font-size: 0.7808687164vw;
+  }
+}
+html body #talkaboutnewdenim #pc-fixed-area {
+  width: 60.7613469985%;
+  position: sticky;
+  left: 30.3806734993%;
+  top: 0%;
+  translate: -50% 0%;
+  margin-bottom: 50px;
+}
+@media (min-aspect-ratio: 1795/962) {
+  html body #talkaboutnewdenim #pc-fixed-area {
+    width: 98.7525987526vh;
+  }
+}
+html body #talkaboutnewdenim #pc-fixed-area hgroup {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+html body #talkaboutnewdenim #pc-fixed-area hgroup .ah {
+  width: 18.5542168675%;
+  margin-right: 3.5542168675%;
+  margin-left: 3.5542168675%;
+  scale: 0;
+  transform-origin: 100% 90%;
+}
+html body #talkaboutnewdenim #pc-fixed-area hgroup .title {
+  width: 66.0843373494%;
+  aspect-ratio: 1097/103;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+html body #talkaboutnewdenim #pc-fixed-area hgroup .title span {
+  display: block;
+  opacity: 0;
+  translate: 0 50%;
+  width: 49.7721057429%;
+}
+html body #talkaboutnewdenim #pc-fixed-area hgroup .title span:nth-child(2) {
+  width: 46.4904284412%;
+  translate: 0 -50%;
+}
+html body #talkaboutnewdenim #pc-fixed-area .pc-index {
+  width: 57.7108433735%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  font-family: "noto-sans-cjk-jp", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  margin-top: 4.3103448276%;
+}
+html body #talkaboutnewdenim #pc-fixed-area .pc-index li {
+  width: 39.4572025052%;
+  margin-bottom: 8.3507306889%;
+}
+html body #talkaboutnewdenim #pc-fixed-area .pc-index li a {
+  display: block;
+}
+html body #talkaboutnewdenim #pc-fixed-area .pc-index li a .img {
+  clip-path: inset(0 100% 0 0);
+}
+html body #talkaboutnewdenim #pc-fixed-area .pc-index li a hgroup {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 6.6137566138%;
+}
+html body #talkaboutnewdenim #pc-fixed-area .pc-index li a hgroup img {
+  width: 29.3650793651%;
+  margin-left: -13.2275132275%;
+  transform-origin: 100% 90%;
+  scale: 0;
+}
+html body #talkaboutnewdenim #pc-fixed-area .pc-index li a hgroup h3 {
+  font-size: 3.3333333333vw;
+  line-height: 1.4;
+  font-weight: 900;
+  white-space: nowrap;
+  margin-left: 5.8201058201%;
+  opacity: 0;
+  translate: 0 10px;
+}
+@media screen and (min-width: 500px) {
+  html body #talkaboutnewdenim #pc-fixed-area .pc-index li a hgroup h3 {
+    font-size: 16.6666666667px;
+  }
+}
+@media screen and (min-width: 500px) and (min-width: 980px) {
+  html body #talkaboutnewdenim #pc-fixed-area .pc-index li a hgroup h3 {
+    font-size: 0.9760858956vw;
+  }
+}
+@media (min-aspect-ratio: 1795/962) {
+  html body #talkaboutnewdenim #pc-fixed-area .pc-index li a hgroup h3 {
+    font-size: 1.5vh;
+  }
+}
+html body #talkaboutnewdenim #pc-fixed-area .pc-index li a hgroup h3 span {
+  background-image: linear-gradient(90deg, var(--orange) 0%, var(--orange) 50%, transparent 50%, transparent 100%);
+  background-position: 100% center;
+  background-size: 200% 80%;
+  background-repeat: no-repeat;
+}
+html body #talkaboutnewdenim .scroll-bar {
+  width: 1px;
+  height: 80.3883495146vh;
+  display: block;
+  background-color: white;
+  position: sticky;
+  right: 0;
+  top: 11.3915857605vh;
+  margin-right: 7.6134699854%;
+  margin-bottom: 11.3915857605vh;
+}
+html body #talkaboutnewdenim .scroll-bar .current {
+  width: 3px;
+  height: 44px;
+  background-color: white;
+  position: absolute;
+  left: -1px;
+  top: 0;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area hgroup .ah {
+  scale: 1;
+  transition: 0.4s cubic-bezier(0.25, 0.25, 0.37, 1.46) 1s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area hgroup .title span {
+  opacity: 1;
+  translate: 0 0;
+  transition: 0.5s ease 0s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area hgroup .title span:nth-child(1) {
+  transition-delay: 0.3s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area hgroup .title span:nth-child(2) {
+  transition-delay: 0.4s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li a hgroup img {
+  scale: 1;
+  transition: 0.4s cubic-bezier(0.25, 0.25, 0.37, 1.46) 1s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li a hgroup h3 {
+  opacity: 1;
+  transition: 0.5s ease 1s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li a hgroup h3 span {
+  background-position: 0 center;
+  transition: 1s ease 0.5s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li a .img {
+  clip-path: inset(0 1% 0 0);
+  transition: 1.5s ease 1s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li a .img img {
+  transition: 1s ease;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li a:hover .img img {
+  scale: 1.1;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li:nth-child(1) a hgroup img {
+  transition-delay: 1.5s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li:nth-child(1) a hgroup h3 {
+  transition-delay: 1.6s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li:nth-child(1) a hgroup h3 span {
+  transition-delay: 2s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li:nth-child(1) a .img {
+  transition-delay: 2s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li:nth-child(2) a hgroup img {
+  transition-delay: 1.7s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li:nth-child(2) a hgroup h3 {
+  transition-delay: 1.8s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li:nth-child(2) a hgroup h3 span {
+  transition-delay: 2.2s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li:nth-child(2) a .img {
+  transition-delay: 2.2s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li:nth-child(3) a hgroup img {
+  transition-delay: 1.9s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li:nth-child(3) a hgroup h3 {
+  transition-delay: 2s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li:nth-child(3) a hgroup h3 span {
+  transition-delay: 2.4s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li:nth-child(3) a .img {
+  transition-delay: 2.4s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li:nth-child(4) a hgroup img {
+  transition-delay: 2.1s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li:nth-child(4) a hgroup h3 {
+  transition-delay: 2.2s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li:nth-child(4) a hgroup h3 span {
+  transition-delay: 2.6s;
+}
+html body #talkaboutnewdenim:has(#main-visual.show) #pc-fixed-area .pc-index li:nth-child(4) a .img {
+  transition-delay: 2.6s;
+}

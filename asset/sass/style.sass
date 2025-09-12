@@ -1,0 +1,128 @@
+@use 'common'
+@use 'config'
+@use 'mixins'
+
+@function p($size, $denominator: 750)
+  @return calc($size/$denominator)*100%
+
+@function vw($size, $denominator: 750)
+  @return calc($size/$denominator)*100vw
+
+@function h($size)
+  @return calc($size/2)*1px
+
+=sp($wide: config.$breakpoint)
+  @include mixins.sp($wide)
+    @content
+
+=pc($wide: config.$breakpoint)
+  @include mixins.pc($wide)
+    @content
+
+=font-size($px)
+  font-size: calc($px/750)*100vw
+  +pc(500px)
+    font-size: calc($px/750)*500px
+    +pc()
+      font-size: calc($px*(800/750)/2732)*100vw
+
+:root
+  --bg: #ece3d4
+  --disp-height: 100svh
+
+=font-chivo($weight: 500)
+  font-family: "chivo", sans-serif
+  font-weight: $weight
+  font-style: normal
+
+=font-tt($weight: 600)
+  font-family: "tt-commons-pro", sans-serif
+  font-weight: $weight
+  font-style: normal
+  
+
+
+html
+  body
+    background-color: var(--bg)
+    font-family: 'osaka', sans-serif
+    #main-visual
+      width: 100%
+      height: var(--disp-height)
+      display: flex
+      justify-content: center
+      align-items: center
+      h1
+        width: 250px
+        +pc 
+          width: 600px
+        img
+          display: block
+        .nice
+          width: 70%
+          margin-inline: auto
+          margin-bottom: -5%
+      .text-area
+        position: absolute
+        left: 0
+        right: 0
+        bottom: 30px
+        text-align: center
+        margin-inline: auto 
+        +font-chivo(600)
+        font-style: italic
+        .lead
+          font-size: 1.8rem
+        .coming
+          font-size: 1.6rem
+
+    #content
+      text-align: center
+      margin-top: 150px
+      h2
+        +font-chivo(800)
+        font-size: 2rem
+      .sub
+        font-size: 1.3rem
+        +font-chivo(800)
+        margin-top: 5px
+      .introduce
+        font-size: 1.2rem
+        line-height: 2
+        margin-top: 20px
+    #shop
+      text-align: center
+      margin-top: 150px
+      padding-bottom: 50px
+      h2 
+        +font-chivo(400)
+        font-size: 1.2rem
+      .address
+        font-size: 1rem
+        margin-top: 4px
+        text-decoration: underline
+        &:hover
+          text-decoration: none
+      .insta 
+        display: flex
+        justify-content: center
+        align-items: center
+        width: fit-content
+        margin-top: 10px
+        margin-inline: auto
+        &:hover
+          text-decoration: underline
+        img
+          width: 20px
+          margin-right: 5px
+
+
+      
+
+
+
+
+          
+
+
+

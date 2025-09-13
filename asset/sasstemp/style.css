@@ -348,9 +348,17 @@ html body #main-visual .text-area .lead {
 html body #main-visual .text-area .coming {
   font-size: 1.6rem;
 }
+html body #content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+  width: 100%;
+  position: relative;
+}
 html body #content {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 0px;
 }
 html body #content h2 {
   font-family: "chivo", sans-serif;
@@ -374,16 +382,21 @@ html body #shop {
   text-align: center;
   margin-top: 150px;
   padding-bottom: 50px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  bottom: 20px;
 }
 html body #shop h2 {
   font-family: "chivo", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.2rem;
+  margin-bottom: 5px;
 }
 html body #shop .address {
   font-size: 1rem;
-  margin-top: 4px;
   text-decoration: underline;
 }
 html body #shop .address:hover {

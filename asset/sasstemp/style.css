@@ -347,13 +347,20 @@ html body #content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100svh;
+  flex-wrap: wrap;
+  min-height: 100svh;
+  height: auto;
   width: 100%;
   position: relative;
 }
 html body #content {
   text-align: center;
-  margin-top: 0px;
+  margin-top: 100px;
+}
+@media screen and (min-width: 980px) {
+  html body #content {
+    width: 100%;
+  }
 }
 html body #content h2 {
   font-family: "chivo", sans-serif;
@@ -373,13 +380,16 @@ html body #content .introduce {
   line-height: 2;
   margin-top: 20px;
 }
+html body #content .nicetomeetyou {
+  width: 300px;
+  display: block;
+  margin-inline: auto;
+  margin-top: 50px;
+}
 html body #shop {
   text-align: center;
   margin-top: 150px;
   padding-bottom: 50px;
-  position: absolute;
-  left: 0;
-  right: 0;
   margin-inline: auto;
   bottom: 20px;
 }

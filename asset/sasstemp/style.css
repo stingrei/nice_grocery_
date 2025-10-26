@@ -325,11 +325,6 @@ html body #main-visual h1 {
 html body #main-visual h1 img {
   display: block;
 }
-html body #main-visual h1 .nice {
-  width: 70%;
-  margin-inline: auto;
-  margin-bottom: -5%;
-}
 html body #main-visual .text-area {
   position: absolute;
   left: 0;

@@ -14,7 +14,9 @@ window.addEventListener "load", ()=>
   winW = window.innerWidth
   current_pos = window.scrollY
   current_btm = current_pos + winH
-  checkOrientation()
+  # checkOrientation()
+
+  document.documentElement.style.setProperty('--disp-height', winH + 'px')
   
   
     
@@ -36,14 +38,12 @@ window.addEventListener "resize", (event) =>
     isSp = true
   else
     isSp = false
-  checkOrientation()
 
 window.addEventListener "orientationchange", (event) =>
   if window.innerWidth < breakpoint
     isSp = true
   else
     isSp = false
-  checkOrientation()
 
 
 

@@ -23,7 +23,8 @@
     winW = window.innerWidth;
     current_pos = window.scrollY;
     current_btm = current_pos + winH;
-    return checkOrientation();
+    // checkOrientation()
+    return document.documentElement.style.setProperty('--disp-height', winH + 'px');
   });
 
   document.addEventListener('DOMContentLoaded', () => {
@@ -36,20 +37,18 @@
 
   window.addEventListener("resize", (event) => {
     if (window.innerWidth < breakpoint) {
-      isSp = true;
+      return isSp = true;
     } else {
-      isSp = false;
+      return isSp = false;
     }
-    return checkOrientation();
   });
 
   window.addEventListener("orientationchange", (event) => {
     if (window.innerWidth < breakpoint) {
-      isSp = true;
+      return isSp = true;
     } else {
-      isSp = false;
+      return isSp = false;
     }
-    return checkOrientation();
   });
 
   window.addEventListener("scroll", (event) => {
